@@ -1,7 +1,7 @@
 {
 	"sa_title": "Admin",
 	"sa_prefix": "{lime}[Admin] {default}",
-	
+
 	"sa_unknown": "Bilinmeyen",
 	"sa_no_permission": "Bu komutu kullanma izniniz yok.",
 	"sa_ban_max_duration_exceeded": "Yasaklama süresi {lightred}{0}{default} dakikadan fazla olamaz.",
@@ -101,5 +101,5 @@
 	"sa_adminchat_template_admin": "{LIME}(YÖNETİCİ) {lightred}{0}{default}: {lightred}{1}{default}",
 	"sa_adminchat_template_player": "{SILVER}(OYUNCU) {lightred}{0}{default}: {lightred}{1}{default}",
 
-	"sa_discord_log_command": "**{0}**, sunucuda `HOSTNAME` üzerinde `{1}` komutunu gerçekleştirdi!",
+	"sa_discord_log_command": "**{0}**, sunucuda `HOSTNAME` üzerinde `{1}` komutunu gerçekleştirdi!"
 }

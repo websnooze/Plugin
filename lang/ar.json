@@ -1,7 +1,7 @@
 {
 	"sa_title": "Admin",
 	"sa_prefix": "{lime}[Admin] {default}",
-	
+
 	"sa_unknown": "مجهول",
 	"sa_no_permission": "ليس لديك الصلاحيات لاستخدام هذا الأمر.",
 	"sa_ban_max_duration_exceeded": "مدة الحظر لا يمكن أن تتجاوز {lightred}{0}{default} دقيقة.",
@@ -102,5 +102,5 @@
 	"sa_adminchat_template_admin": "{LIME}(مسؤول) {lightred}{0}{default}: {lightred}{1}{default}",
 	"sa_adminchat_template_player": "{SILVER}(لاعب) {lightred}{0}{default}: {lightred}{1}{default}",
 
-	"sa_discord_log_command": "**{0}** أصدر الأمر `{1}` على الخادم `HOSTNAME`",
+	"sa_discord_log_command": "**{0}** أصدر الأمر `{1}` على الخادم `HOSTNAME`"
 }

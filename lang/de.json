@@ -1,7 +1,7 @@
 {
 	"sa_title": "Admin",
 	"sa_prefix": "{lime}[Admin] {default}",
-	
+
 	"sa_unknown": "Unbekannt",
 	"sa_no_permission": "Du hast keine Berechtigung zur Verwendung dieses Befehls.",
 	"sa_ban_max_duration_exceeded": "Die Dauer des Banns darf {lightred}{0}{default} Minuten nicht überschreiten.",
@@ -10,7 +10,7 @@
 	"sa_admin_add": "Admin hinzufügen",
 	"sa_admin_remove": "Admin entfernen",
 	"sa_admin_reload": "Admins neuladen",
-	
+
 	"sa_godmode": "Gottmodus",
 	"sa_noclip": "No Clip",
 	"sa_respawn": "Wiederbeleben",
@@ -21,15 +21,15 @@
 	"sa_set_speed": "Geschwindigkeit setzen",
 	"sa_set_gravity": "Gravitation setzen",
 	"sa_set_money": "Geld setzen",
-	
+
 	"sa_changemap": "Map wechseln",
 	"sa_restart_game": "Spiel neustarten",
-	
+
 	"sa_team_ct": "AT",
 	"sa_team_t": "T",
 	"sa_team_swap": "Wechseln",
 	"sa_team_spec": "Zuschauer",
-	
+
 	"sa_slap": "Klaps",
 	"sa_slay": "töten",
 	"sa_kick": "Kicken",
@@ -38,7 +38,7 @@
 	"sa_mute": "Sprachchat stummschalten",
 	"sa_silence": "Komplett stummschalten",
 	"sa_team_force": "Team zuweisen",
-	
+
 	"sa_menu_custom_commands": "Eigene Befehle",
 	"sa_menu_server_manage": "Server Verwalten",
 	"sa_menu_fun_commands": "Spaß Befehle",
@@ -101,5 +101,5 @@
 	"sa_adminsay_prefix": "{RED}ADMIN: {lightred}{0}{default}",
 	"sa_adminchat_template_admin": "{LIME}(ADMIN) {lightred}{0}{default}: {lightred}{1}{default}",
 	"sa_adminchat_template_player": "{SILVER}(PLAYER) {lightred}{0}{default}: {lightred}{1}{default}",
-	"sa_discord_log_command": "**{0}** hat den Befehl `{1}` auf dem Server `HOSTNAME` ausgeführt",
+	"sa_discord_log_command": "**{0}** hat den Befehl `{1}` auf dem Server `HOSTNAME` ausgeführt"
 }

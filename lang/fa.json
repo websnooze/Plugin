@@ -1,7 +1,7 @@
 {
 	"sa_title": "Admin",
 	"sa_prefix": "{lime}[Admin] {default}",
-	
+
 	"sa_unknown": "ناشناخته",
 	"sa_no_permission": "شما دسترسی برای استفاده از این دستور را ندارید.",
 	"sa_ban_max_duration_exceeded": "مدت ممنوعیت نمی‌تواند بیشتر از {lightred}{0}{default} دقیقه باشد.",
@@ -102,5 +102,5 @@
 	"sa_adminchat_template_admin": "{LIME}(مدیر) {lightred}{0}{default}: {lightred}{1}{default}",
 	"sa_adminchat_template_player": "{SILVER}(بازیکن) {lightred}{0}{default}: {lightred}{1}{default}",
 
-	"sa_discord_log_command": "**{0}** دستور `{1}` را در سرور `HOSTNAME` اجرا کرد",
+	"sa_discord_log_command": "**{0}** دستور `{1}` را در سرور `HOSTNAME` اجرا کرد"
 }

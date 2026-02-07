@@ -1,7 +1,7 @@
 {
 	"sa_title": "Admin",
 	"sa_prefix": "{lime}[Admin] {default}",
-	
+
 	"sa_unknown": "Desconhecido",
 	"sa_no_permission": "Você não tem permissão para usar este comando.",
 	"sa_ban_max_duration_exceeded": "A duração da proibição não pode exceder {lightred}{0}{default} minutos.",
@@ -102,5 +102,5 @@
 	"sa_adminchat_template_admin": "{LIME}(ADMIN) {lightred}{0}{default}: {lightred}{1}{default}",
 	"sa_adminchat_template_player": "{SILVER}(JOGADOR) {lightred}{0}{default}: {lightred}{1}{default}",
 
-	"sa_discord_log_command": "**{0}** emitiu o comando `{1}` no servidor `HOSTNAME`",
+	"sa_discord_log_command": "**{0}** emitiu o comando `{1}` no servidor `HOSTNAME`"
 }

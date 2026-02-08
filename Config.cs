@@ -1,9 +1,9 @@
 using CounterStrikeSharp.API.Core;
 using System.Text.Json.Serialization;
 
-namespace CSSPanel;
+namespace AdvancedMonitoring;
 
-public class CSSPanelConfig : BasePluginConfig
+public class AdvancedMonitoringConfig : BasePluginConfig
 {
 	[JsonPropertyName("ConfigVersion")]
 	public override int Version { get; set; } = 1;

@@ -1,27 +1,13 @@
 using CounterStrikeSharp.API.Modules.Cvars;
-using System.Runtime.InteropServices;
 
-namespace CSSPanel;
+namespace AdvancedMonitoring;
 
 internal static class ServerInfoHelper
 {
-	public delegate nint CNetworkSystem_UpdatePublicIp(nint a1);
-	private static CNetworkSystem_UpdatePublicIp? _networkSystemUpdatePublicIp;
-
-	/// <summary>Adresse IP publique du serveur (via NetworkSystem).</summary>
+	/// <summary>Adresse IP du serveur (convar ip). Note : souvent 0.0.0.0 si le serveur écoute sur toutes les interfaces.</summary>
 	public static string GetServerIp()
 	{
-		var networkSystem = NativeAPI.GetValveInterface(0, "NetworkSystemVersion001");
-		unsafe
-		{
-			if (_networkSystemUpdatePublicIp == null)
-			{
-				var funcPtr = *(nint*)(*(nint*)(networkSystem) + 256);
-				_networkSystemUpdatePublicIp = Marshal.GetDelegateForFunctionPointer<CNetworkSystem_UpdatePublicIp>(funcPtr);
-			}
-			var ipBytes = (byte*)(_networkSystemUpdatePublicIp(networkSystem) + 4);
-			return $"{ipBytes[0]}.{ipBytes[1]}.{ipBytes[2]}.{ipBytes[3]}";
-		}
+		return ConVar.Find("ip")?.StringValue ?? "0.0.0.0";
 	}
 
 	/// <summary>Adresse ip:port (convars ip + hostport).</summary>

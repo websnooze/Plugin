@@ -1,2 +1,0 @@
-{GREEN}[ CSS-Panel (Query) ]{DEFAULT}
-- css_query - Output server info and player list as JSON to console (SERVER/RCON only, @css/root). Used by CSS-Panel.
